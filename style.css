@@ -43,17 +43,20 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	position: relative;
+	text-align: center;
 }
 
 #advice-number {
 	height: 10%;
 	margin: 0;
 	color: var(--neon-green);
+	letter-spacing: 0.3vw;
 }
 
 #advice-text {
 	flex: 1;
 	color: var(--light-cyan);
+	font-size: 1.8rem;
 }
 
 .advice-card div:last-child {
