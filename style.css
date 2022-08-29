@@ -36,7 +36,6 @@ body {
 	background-color: var(--dark-grayish-blue);
 	width: 33%;
 	border-radius: 15px;
-	min-height: 40%;
 	box-shadow: 0 10px 80px -50px black;
 	padding: 3%;
 	display: flex;
