@@ -58,6 +58,7 @@ body {
 	flex: 1;
 	color: var(--light-cyan);
 	font-size: 1.8vw;
+	padding: 5% 0;
 }
 
 .advice-card div:last-child {
