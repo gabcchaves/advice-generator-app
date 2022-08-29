@@ -7,10 +7,8 @@ function fetchAdvice() {
 		.then((response) => response.json())
 		.then((data) => {
 			console.log(data.slip.advice);
-			document.querySelector("#advice-number")
-				.appendChild(document.createTextNode("Advice #" + data.slip.id));
-			document.querySelector("#advice-text")
-				.appendChild(document.createTextNode(data.slip.advice));
+			document.querySelector("#advice-number").innerHTML = "Advice #" + data.slip.id;
+			document.querySelector("#advice-text").innerHTML = data.slip.advice;
 		});
 }
 
