@@ -48,10 +48,12 @@ body {
 #advice-number {
 	height: 10%;
 	margin: 0;
+	color: var(--neon-green);
 }
 
 #advice-text {
 	flex: 1;
+	color: var(--light-cyan);
 }
 
 .advice-card div:last-child {
@@ -92,4 +94,15 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/* Mobile settings */
+@media screen and (max-width: 1080px) {
+	body {
+		justify-content: flex-start;
+	}
+	.advice-card {
+		width: 80%;
+		margin-top: 35%;
+	}
 }
